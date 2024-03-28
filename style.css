@@ -1,0 +1,82 @@
+/* CSS DOCUMENT - CARD */
+
+@import url('https://fonts.cdnfonts.com/css/adobe-garamond-pro-2');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px black solid; */
+}
+
+body{
+    font-family: 'Segoe UI';
+    color: black;
+    background: rgb(107,142,35);
+    background: linear-gradient(180deg, rgba(107,142,35,1) 8%, rgba(163,170,84,1) 21%);
+}
+
+#top{
+    height: 200px;
+    text-align: center;
+    font-family: 'Adobe Garamond Pro', sans-serif;;                                          
+    font-size:40px; 
+    padding-top:50px;
+}
+
+#top img{
+    height: 200px;
+}
+
+#content {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black ;
+    background-color: #EEE8AA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.card h2{
+font-size: 23px;
+font-family:'Adobe Garamond Pro', sans-serif;;
+}
+
+.card figure{
+    width: 250px;
+    min-height: 250px;
+    border-radius: 20px;
+
+    
+}
+
+.card figure img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+#bottom{
+    text-align: center;
+    background-color:rgba(163,170,84,1) ;
+    padding: 10px 0;
+}
+
+#bottom img{
+    height: 50px;
+}
