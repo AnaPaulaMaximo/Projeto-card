@@ -1,6 +1,8 @@
 /* CSS DOCUMENT - CARD */
 
 @import url('https://fonts.cdnfonts.com/css/adobe-garamond-pro-2');
+@import url('https://fonts.cdnfonts.com/css/ringbearer');
+                
 
 *{
     margin: 0;
@@ -12,8 +14,8 @@
 body{
     font-family: 'Segoe UI';
     color: black;
-    background: rgb(107,142,35);
-    background: linear-gradient(180deg, rgba(107,142,35,1) 8%, rgba(163,170,84,1) 21%);
+    background: rgb(43,102,35);
+    background: linear-gradient(180deg, rgba(43,102,35,1) 10%, rgba(46,47,42,1) 36%);
 }
 
 #top{
@@ -21,11 +23,11 @@ body{
     text-align: center;
     font-family: 'Adobe Garamond Pro', sans-serif;;                                          
     font-size:40px; 
-    padding-top:50px;
+
 }
 
 #top img{
-    height: 200px;
+    height: 250px;
 }
 
 #content {
@@ -50,7 +52,14 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 25px;
+    overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
 }
+
+.card:hover {
+    transform: scale(1.10);
+  }
 
 .card h2{
 font-size: 23px;
@@ -71,12 +80,11 @@ font-family:'Adobe Garamond Pro', sans-serif;;
 }
 
 
+
 #bottom{
     text-align: center;
-    background-color:rgba(163,170,84,1) ;
     padding: 10px 0;
-}
-
-#bottom img{
-    height: 50px;
+    font-family: 'Ringbearer', sans-serif;
+   color:  #e1c001;  
+   font-size:30px;                                     
 }
